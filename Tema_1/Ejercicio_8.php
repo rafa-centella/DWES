@@ -11,7 +11,7 @@ $total = $subtotal + $tax;
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 8</title>
-    <link rel="stylesheet" href="Styles/Style.css">
+    <link rel="stylesheet" href="./Styles/Style.css">
 </head>
 <body>
     <h1>The Candy Store</h1>
