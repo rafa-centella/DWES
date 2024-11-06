@@ -20,7 +20,7 @@ $precioConDescuento = $precioSinDescuento - $descuento;
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 13</title>
-    <link rel="stylesheet" href="./Styles/Style.css">
+    <link rel="stylesheet" type="text/css" href="Styles/Style.css">
 </head>
 <body>
     
