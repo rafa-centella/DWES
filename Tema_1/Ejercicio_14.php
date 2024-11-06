@@ -23,3 +23,4 @@ if($name !== '') {
         <h2><?= $greeting ?></h2>
     </div>
 </body>
+</html>

@@ -23,3 +23,4 @@ $message = ($stock > 0) ? "In stock" : "More stock coming soon";
         </div>
     </div>
 </body>
+</html>

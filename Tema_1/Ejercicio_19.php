@@ -29,3 +29,4 @@ $offer = match ($day) {
         </div>
     </div>
 </body>
+</html>

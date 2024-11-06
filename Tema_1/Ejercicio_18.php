@@ -35,3 +35,4 @@ switch ($day) {
         </div>
     </div>
 </body>
+</html>
