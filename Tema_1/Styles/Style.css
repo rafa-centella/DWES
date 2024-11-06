@@ -55,13 +55,12 @@ p {
 
 table {
   border: 1 solid black;
+  margin: 5%;
 }
 
 th {
-  background-color: rgb(234, 234, 19);
-  border: 0;
+  color: black;
+  background-color: rgb(224, 224, 44);
+  font-size: 2em;
 }
 
-td {
-  border: 0;
-}
