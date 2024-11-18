@@ -10,7 +10,7 @@
     }
 ?>
 
-<!DOCTYPEhtml>
+<!DOCTYPE html>
 <html lang="es-ES">
     <head>
         <meta charset="UTF-8">

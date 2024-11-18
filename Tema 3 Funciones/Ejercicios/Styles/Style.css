@@ -54,16 +54,25 @@ p {
 }
 
 table {
-  border-top: 1 solid black;
-  border-bottom: 1 solid black;
-  border-left: 1 solid black;
-  border-right: 1 solid black;
-  margin: 2%;
+  border: 2px solid black;
+  margin: 2em;
+}
+
+caption {
+  font-size: 1em;
+  padding: 10px 20px 12px 20px;
+  text-align: left;
 }
 
 th {
   background-color: rgb(224, 224, 44);
+  color: rgb(26, 16, 16);
   font-size: 1em;
+  padding: 10px 20px;
+}
+
+td {
+  padding: 10px 20px;
 }
 
 nav {
@@ -74,5 +83,15 @@ nav {
 
 footer {
   background-color: #6d061e;
-  color: #fbccbf;
+  margin-top: 3em;
+  margin-bottom: 0%;
+}
+
+footer span {
+  padding: 10px 20px;
+  align-items: center;
+}
+
+hr {
+  margin-right: 17%;
 }
