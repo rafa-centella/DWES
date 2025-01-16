@@ -11,7 +11,8 @@ class Vehicle {
     ) {}
 
     public function getDetails(): string {
-        $result = "Marca: " . $this->make . '<br>Modelo: ' . $this->model . '<br>Matricula: ' . $this->licensePlate . "<br><br>";
+        $license = $this->isAvailable() ? "Si" : "No";
+        $result = "Marca: " . $this->make . '<br>Modelo: ' . $this->model . '<br>Matricula: ' . $this->licensePlate . '<br>Disponible: ' . $license . "<br><br>";
         return $result;
     }
 

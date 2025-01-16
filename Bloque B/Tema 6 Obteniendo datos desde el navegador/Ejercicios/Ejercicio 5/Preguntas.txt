@@ -1,0 +1,32 @@
+- ¿Qué tipo de problemas podría originar un ataque XSS para los usuarios?
+
+Se pueden presentar diferentes problemas:
+
+1. Robo de Información Sensible: Los atacantes pueden robar datos personales, como nombres de usuario, contraseñas, o información de tarjetas de crédito.
+
+2. Secuestro de Sesiones: XSS puede permitir a los atacantes robar cookies de sesión, lo que les permite hacerse pasar por el usuario afectado y acceder a sus cuentas.
+
+3. Desfiguración de Páginas Web: Los atacantes pueden modificar el contenido de la página web, mostrando información falsa o engañosa a los usuarios.
+
+4. Distribución de Malware: A través de scripts maliciosos, los atacantes pueden redirigir a los usuarios a sitios que distribuyen malware o virus.
+
+5. Phishing: Los atacantes pueden crear formularios falsos en la página web para engañar a los usuarios y robar sus credenciales.
+
+6. Impacto en la Reputación: Si un sitio web es víctima de un ataque XSS, puede perder la confianza de los usuarios, lo que afecta su reputación y negocio.
+
+7. Interferencia con la Experiencia del Usuario: Los scripts maliciosos pueden afectar el comportamiento del navegador, causando que las páginas se comporten de manera errónea o que se muestren anuncios no deseados.
+
+8. Acceso no Autorizado a Recursos: Los atacantes pueden utilizar XSS para acceder a recursos protegidos o realizar acciones en nombre de otros usuarios sin su consentimiento.
+
+
+- ¿Y para el sitio web?
+
+1. Pérdida de Confianza del Usuario.
+2. Daño a la Reputación.
+3. Costos de Remediación.
+4. Interrupción del Servicio.
+5. Compromiso de Datos.
+6. Consecuencias Legales.
+7. Penalizaciones por Motores de Búsqueda.
+8. Fugas de Información.
+9. Requerimientos de Seguridad Aumentados.
