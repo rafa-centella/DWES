@@ -21,9 +21,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         //$resize = create_thumbnail($destination, $thumbPath);
         $cropped = create_cropped_thumbnail($destination, $thumbPath);
     }
-
+    $variableImagen = './Uploads/Thumbs/' . $filename;
     if ($moved === true) {
-        $message = '<br><img src="' . $thumbPath . '" /><br><p>Subida correctamente.</p>';
+        $message = '<br><img src="' . $variableImagen . '" /><br>Subida correctamente.';
     } else {
         $message = '<b>No se ha podido realizar la subida del archivo, posibles errores encontrados:</b>' . $error;
     }
@@ -31,7 +31,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 include 'Includes/Header.php';
 ?>
 <br>
-    <?= $message ?>
+    <p><?= $message ?></p>
     <form action="Index.php" method="POST" enctype="multipart/form-data" >
         <label for="image" >Añade foto de producto: </label>
         <input type="file" class="ancho" name="image" accept="image/*" id="image" /><br><br>

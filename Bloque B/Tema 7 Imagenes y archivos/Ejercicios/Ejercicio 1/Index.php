@@ -11,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 }
 include 'Includes/Header.php';
 ?>
-<?= htmlspecialchars($message) ?>
+<?= $message ?>
 <form action="Index.php" method="POST" enctype="multipart/form-data" >
     <label for="image" ><b>Upload file:</b></label>
     <input type="file" class="ancho" name="image" accept="image/*" id="image" /><br>

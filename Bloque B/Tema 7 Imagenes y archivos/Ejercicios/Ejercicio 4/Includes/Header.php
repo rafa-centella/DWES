@@ -13,7 +13,7 @@
 
     <body>
         <header>
-            <a href="Index.php"><img src="Images/users.jpg" class="logo" alt="Muñeco de usuario" /></a>
+            <a href="Index.php"><img src="Uploads/users.jpg" class="logo" alt="Muñeco de usuario" /></a>
             <h1>Gestión de productos</h1>
         </header>
         <hr>
