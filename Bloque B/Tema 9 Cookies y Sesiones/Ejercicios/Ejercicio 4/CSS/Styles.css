@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(192, 99, 99);
+}
+
+#enviar {
+    background-color: blue;
+    box-shadow: 2px 2px 5px rgba(66, 51, 51, 0.3);
+    border-radius: 20px;
+    color: yellowgreen;
+    font-family: 'Playfair Display';
+    font-size: 3vw;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: transform 0.1s ease;
+    width: 65%;
+}
+
+#enviar:active {
+    transform: scale(0.95);
+}
+
+#enviar:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    font-size: 0.5vw;
+    color: red;
+}
+
+form {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 30px;
+}
+
+header {
+    background-image: linear-gradient(to right, red, orange,  rgb(250, 183, 59));
+    color: rgb(116, 86, 80);
+    font-family: 'Playfair Display';
+    font-size: 4vw;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.index {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.listaMenu {
+    display: inline;
+    font-size: 2.8vw;
+    padding: 15px 30px;
+}
+
+.enlaceMenu {
+    color: rgb(116, 86, 80);
+    text-decoration: none;
+}
+
+.enlaceMenu:hover {
+    text-decoration: underline;
+}
+
+.enlaceMenu:active {
+    color: rgb(116, 86, 80);
+    text-decoration: none;
+}
+
+#correo {
+    background-color: rgb(241, 195, 195);
+    border-bottom: 0px;
+    border-left: 0.5px solid gray;
+    border-right: 0px;
+    border-radius: 20px;
+    border-top: 0.5px solid gray;
+    font-family: 'Merriweather';
+    font-size: 1.3vw;
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#correo:focus {
+    background-color: yellowgreen;
+    color: red;
+}
+
+#contra {
+    background-color: rgb(241, 195, 195);
+    border-bottom: 0px;
+    border-left: 0.5px solid gray;
+    border-right: 0px;
+    border-radius: 20px;
+    border-top: 0.5px solid gray;
+    font-family: 'Merriweather';
+    font-size: 1.3vw;
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#contra:focus {
+    background-color: yellowgreen;
+    color: red;
+}
+
+
+label {
+    font-family: 'Merriweather';
+    font-size: 2.7vw;
+}
+
+main {
+    color: yellowgreen;
+    font-family: 'Merriweather';
+    font-size: 2vw;
+    text-align: center;
+}
+
+.saludo {
+    height: 50vh;
+    margin: 10px;
+}
+
+.saludo>h1 {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 30px;
+}
+
+.saludo>p {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 30px;
+}
+
+
